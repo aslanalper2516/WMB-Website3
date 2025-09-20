@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Menü</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Particle System -->
+  <script src="js/particles.js"></script>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1 class="logo">Menü</h1>
+    <div id="navbar-categories" class="navbar-categories"></div>
+  </nav>
+
+
+  <!-- İçerik -->
+  <main>
+    <button id="back-button" class="back-button" title="Geri Dön">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+    </button>
+    <div id="menu"></div>
+  </main>
+
+  <script src="js/menu.js"></script>
+</body>
+</html>
