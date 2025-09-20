@@ -41,7 +41,7 @@ const menuKategories = [
 
 const menuItems = [
   { 
-    name: "Cem Abi", 
+    name: "Klasik Hamburger", 
     price: "₺120", 
     kategory: "yiyecekler", 
     image: "images/yemek.png",
@@ -51,7 +51,7 @@ const menuItems = [
     name: "Margherita Pizza", 
     price: "₺150", 
     kategory: "yiyecekler", 
-    image: "images/yemek.png",
+    image: "images/pizza.png",
     description: "Mozzarella peyniri, domates sosu ve taze fesleğen ile İtalyan tarzı pizza"
   },
   { 
@@ -93,7 +93,7 @@ const menuItems = [
     name: "Tavuk Döner", 
     price: "₺85", 
     kategory: "yiyecekler", 
-    image: "images/yemek.png",
+    image: "images/doner.png",
     description: "Taze tavuk eti, sebzeler ve özel sos ile hazırlanmış döner"
   },
   { 
