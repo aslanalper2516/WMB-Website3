@@ -93,7 +93,7 @@ const menuItems = [
     name: "Tavuk Döner", 
     price: "₺85", 
     kategory: "yiyecekler", 
-    image: "images/doner.png",
+    image: "images/doner.png", 
     description: "Taze tavuk eti, sebzeler ve özel sos ile hazırlanmış döner"
   },
   { 

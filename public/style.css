@@ -263,6 +263,7 @@ p {
   justify-content: center;
   overflow: hidden;
   background: var(--bg-primary);
+  padding-top: 120px; /* Navbar yüksekliği + ekstra boşluk */
 }
 
 .image-slider {
