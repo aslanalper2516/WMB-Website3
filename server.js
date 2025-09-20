@@ -9,12 +9,12 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Ana sayfa
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 // Menü sayfası
 app.get("/menu", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "menu.html"));
+  res.sendFile(path.join(__dirname,"menu.html"));
 });
 
 // Sunucu başlat
